@@ -164,6 +164,43 @@
             width: 100%;
         }
 
+        #contactForm {
+            margin-left: 75px;
+            text-align: left;
+        }
+
+        #contact {
+            margin-top: 100px;
+        }
+       
+        #contactForm input {
+            border-radius: 50px;
+            background: #F5F6FB;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+            color: #575455;
+            border: 0;
+            width: 80%;
+            padding: 15px 30px 15px 30px;
+        }
+
+        #contactForm button {
+            width: 180px;
+            height: 48px;
+            border-radius: 50px;
+            background: #1F7CFF;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 24px;
+            text-align: center;
+            color: #FFFFFF;
+            border: 0;
+            padding: 15px 30px 15px 30px;
+        }
 
     </style>
 </head>
@@ -239,6 +276,17 @@
         <div id="contactImg">
             <img src="img/contact.svg" alt="">
         </div>
-
+        <div id="contactForm">
+            <h2 class="red">Economize seu tempo</h2>
+            <h1 class="black">Ganhe mais dinheiro</h1>
+            <p class="gray">Digite aqui seu endereço de e-mail. Eu entrarei em <br>
+                contato para fornecer um diagnóstico gratuito.
+            </p>
+            <form action="https://formspree.io/f/mdoqjggv" method="POST">
+                <p><input placeholder="Seu e-mail" type="text" id="emailInput" name="contactEmail" required="required"></p><br>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
